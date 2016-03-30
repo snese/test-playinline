@@ -8,7 +8,7 @@ angular.module('starter.controllers', [])
       } else {
         console.log('screenshot saved in: ', res.filePath);
       }
-    }, 'jpg', 100, 123);
+    }, 'jpg', '100', 'screenshot_test');
   };
 })
 
